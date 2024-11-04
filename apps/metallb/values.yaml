@@ -1,6 +1,13 @@
 # Default values for metallb.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+configInline:
+  address-pools:
+    - name: default
+      protocol: layer2
+      addresses:
+        - 192.168.12.240-192.168.12.250  # Your IP range
+        
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
