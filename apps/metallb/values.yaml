@@ -21,7 +21,7 @@ prometheus:
   # (https://github.com/coreos/prometheus-operator) for more powerful
   # monitoring configuration. If you use the Prometheus operator, this
   # can be left at false.
-  scrapeAnnotations: true
+  scrapeAnnotations: false
 
   # port both controller and speaker will listen on for metrics
   metricsPort: 7472
@@ -93,7 +93,7 @@ prometheus:
   # to podMonitor, supports secure metrics.
   serviceMonitor:
     # enable support for Prometheus Operator
-    enabled: true
+    enabled: false
 
     speaker:
       # optional additional labels for the speaker serviceMonitor

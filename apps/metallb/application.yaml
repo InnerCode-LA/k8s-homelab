@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/InnerCode-LA/k8s-homelab.git'
+    repoURL: 'https://github.com/InnerCode-LA/k8s-homelab'
     path: apps/metallb
     targetRevision: HEAD
   destination:
